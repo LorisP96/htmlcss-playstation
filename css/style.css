@@ -170,12 +170,9 @@ h2 {
     border-radius: 15px;
 }
 
-.info-console {
-    height: 100%;
-}
-
 .info-console > .btn {
     background-color: #2d64e6;
+    margin-bottom: 20px;
 }
 
 .selected {
