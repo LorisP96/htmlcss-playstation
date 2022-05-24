@@ -118,10 +118,13 @@ main img {
 
 .backg {
     position: relative;
-    background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.one {
+    background-image: url(../img/jumbo-bg.png);
 }
 
 .ms_container_banner > img {
@@ -144,6 +147,9 @@ main img {
     border-radius: 15px;
 }
 
+.two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 /* DESKTOP VIEW */
 
 @media screen and (min-width:992px) {
