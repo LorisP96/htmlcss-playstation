@@ -179,6 +179,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.info-console > .p-grey {
+    min-height: 50px;
+}
+
 .selected {
     border-bottom: 2px solid var(--blue);
     height: 100%;
