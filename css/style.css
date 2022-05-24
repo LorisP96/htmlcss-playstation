@@ -38,6 +38,7 @@ a {
     height: 80px;
     border-bottom: 1px solid lightgrey;
     font-weight: 500;
+    background-color: white;
 }
 
 .header-bottom > nav {
