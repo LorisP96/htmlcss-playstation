@@ -170,12 +170,12 @@ h2 {
     border-radius: 15px;
 }
 
-.info-console > .btn {
-    background-color: #2d64e6;
+.info-console {
+    height: 100%;
 }
 
-.accessories {
-    padding: 0 50px;
+.info-console > .btn {
+    background-color: #2d64e6;
 }
 
 .selected {
@@ -206,5 +206,11 @@ h2 {
 @media screen and (min-width:992px) {
     .ms_container_banner {
         width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .accessories {
+        padding: 0 50px;
     }
 }
