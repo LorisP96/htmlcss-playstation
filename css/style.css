@@ -59,7 +59,7 @@ a {
 }
 
 .header-bottom li {
-    padding: 0 20px;
+    padding: 0 17px;
 }
 
 .header-bottom li::after {
@@ -68,7 +68,7 @@ a {
     color: #999999;
     font-size: 12px;
     vertical-align: middle;
-    padding: 0 3px;
+    padding-left: 3px;
 }
 
 .search_icon {
