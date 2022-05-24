@@ -46,6 +46,10 @@ a {
     padding: 0 10px ;
 }
 
+.logo {
+    padding: 0 10px;
+}
+
 .header-bottom ul {
     justify-content: baseline;
     flex-grow: 1;
@@ -59,7 +63,7 @@ a {
 }
 
 .header-bottom li {
-    padding: 0 17px;
+    padding: 0 16px;
 }
 
 .header-bottom li::after {
