@@ -198,6 +198,24 @@ h2 {
 .release > img {
     border-radius: 15px;
 }
+
+/* ps plus */
+
+.plus {
+    background-color: #bebcbb;
+}
+
+.plus .btn {
+    color: var(--blue);
+    background-color: #d9dadc;
+    margin-bottom: 20px;
+}
+
+.ms_small_banner img {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 /* DESKTOP VIEW */
 
 @media screen and (min-width:992px) {
