@@ -211,6 +211,19 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* ps now */
+
+.now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.now .btn {
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
 .ms_small_banner img {
     width: 60%;
     margin-top: 10px;
