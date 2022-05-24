@@ -22,6 +22,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: inherit;
+}
+
 .btn {
     color: white;
     border-radius: 20px;
@@ -235,6 +239,40 @@ h2 {
     display: inline-block;
     width: 20%;
     margin: 15px 7px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #00439c;
+    padding: 25px;
+    color: white;
+}
+
+.foot-logo {
+    margin: 30px 0;
+}
+
+.foot-logo > img {
+    height: 80px;
+}
+
+span > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+footer ul {
+    padding-left: 20px;
+}
+
+footer li {
+    line-height: 40px;
+}
+
+#old {
+    width: 30%;
 }
 /* DESKTOP VIEW */
 
