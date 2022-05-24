@@ -4,6 +4,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 main {
@@ -137,6 +138,10 @@ main img {
 
 .ms_container_banner > * {
     margin-bottom: 30px;
+}
+
+.thumbs > img {
+    border-radius: 15px;
 }
 
 /* DESKTOP VIEW */
