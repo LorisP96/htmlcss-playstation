@@ -21,6 +21,12 @@ a {
     color: inherit;
 }
 
+.btn {
+    color: white;
+    border-radius: 20px;
+}
+
+
 /* HEADER */
 
 .header-top {
@@ -64,7 +70,7 @@ a {
 }
 
 .header-bottom li {
-    padding: 0 16px;
+    padding: 0 15px;
 }
 
 .header-bottom li::after {
@@ -93,8 +99,50 @@ a {
 
 .header-bottom .btn {
     background-color: #363636;
-    color: white;
-    border-radius: 20px;
 }
 
-/* MAIN */
+/* MAIN */ 
+main img {
+    width: 100%;
+    display: inline-block;
+}
+
+.ms_container_banner {
+    width: 100%;
+    color: white;
+    padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.backg {
+    position: relative;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ms_container_banner > img {
+    width: 50%;
+}
+
+.ms_container_banner > h2 {
+    font-size: 35px;
+}
+
+.ms_container_banner > .btn {
+    background-color: #cd3d0f;
+}
+
+.ms_container_banner > * {
+    margin-bottom: 30px;
+}
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width:992px) {
+    .ms_container_banner {
+        width: 50%;
+    }
+}
