@@ -162,12 +162,13 @@ h2 {
 
 .thumbs {
     cursor: pointer;
+    padding: 5px;
 }
 
 .col:first-child .thumbs {
     border: 3px solid #0072ce;
     border-radius: 15px;
-    padding: 1px;
+    padding: 2px;
 }
 
 .thumbs > img {
