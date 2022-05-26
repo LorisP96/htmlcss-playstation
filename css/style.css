@@ -45,10 +45,59 @@ a:hover {
 }
 
 .btn:hover {
+    padding: 5px 11px;
+}
+
+.ms_btn_red {
+    background-color: #cd3d0f;
+}
+
+.ms_btn_red:hover {
+    color: inherit;
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+    }
+
+.ms_btn_black {
+    background-color: #363636;
+}
+
+.ms_btn_black:hover {
     color: white;
     border: 2px solid white;
-    outline: 2px solid black;
-    padding: 5px 11px;
+    outline: 2px solid #363636;
+}
+
+.ms_btn_blue {
+    background-color: #2d64e6;
+}
+
+.ms_btn_blue:hover {
+    color: white;
+    border: 2px solid white;
+    outline: 2px solid #2d64e6;
+}
+
+.ms_btn_white {
+    color: black;
+    background-color: white;
+}
+
+.ms_btn_white:hover {
+    color: black;
+    border: 2px solid #161c3b;
+    outline: 2px solid white;
+}
+
+.ms_btn_grey {
+    color: var(--blue);
+    background-color: #d9dadc;
+}
+
+.ms_btn_grey:hover {
+    color: var(--blue);
+    border: 2px solid #bebcbb;
+    outline: 2px solid #d9dadc;
 }
 /* HEADER */
 
@@ -120,10 +169,6 @@ a:hover {
     padding: 0 10px;
 }
 
-.header-bottom .btn {
-    background-color: #363636;
-}
-
 /* MAIN */ 
 main img {
     width: 100%;
@@ -159,10 +204,6 @@ h2 {
     font-size: 40px;
 }
 
-.ms_container_banner > .btn {
-    background-color: #cd3d0f;
-}
-
 .ms_container_banner > * {
     margin-bottom: 30px;
 }
@@ -183,7 +224,6 @@ h2 {
 }
 
 .info-console > .btn {
-    background-color: #2d64e6;
     margin-bottom: 20px;
 }
 
@@ -231,8 +271,6 @@ h2 {
 }
 
 .plus .btn {
-    color: var(--blue);
-    background-color: #d9dadc;
     margin-bottom: 20px;
 }
 
@@ -244,8 +282,6 @@ h2 {
 }
 
 .now .btn {
-    color: black;
-    background-color: white;
     margin-bottom: 20px;
 }
 
