@@ -184,10 +184,19 @@ h2 {
     min-height: 50px;
 }
 
+.accessories > div {
+    height: 80px;
+}
+
 .selected {
     border-bottom: 2px solid var(--blue);
-    height: 100%;
     font-weight: 600;
+}
+
+.accessories:hover {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 600;
+    color: black;
 }
 
 .two {
