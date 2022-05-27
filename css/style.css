@@ -334,16 +334,12 @@ footer li {
 /* VIEW */
 
 @media screen and (min-width:576px) {
-    .ms_container_banner {
-        width: 50%;
-    }
-
     .social-box {
         width: 20%;
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .ms_container_banner {
         width: 50%;
     }
